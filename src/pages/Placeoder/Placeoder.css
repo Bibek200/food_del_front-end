@@ -1,0 +1,39 @@
+.place-oder{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 100px;
+}
+.oder-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: max(30%,500px);
+}
+.oder-left .titel{
+    font-size: max(1vw,30px);
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.oder-left input{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c5bfbf;
+    outline-color:tomato ;
+    border-radius: 6px;
+
+}
+.oder-left .multi-filt{
+    display: flex;
+    gap: 20px;
+}
+.oder-rig{
+    width: 100%;
+    max-width: max(40%,500px);
+}
+.oder-rig .card-total button{
+   margin-top: 30px;
+}
